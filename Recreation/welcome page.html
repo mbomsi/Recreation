@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="welcome.css">
+    <title>Title</title>
+</head>
+<body>
+   <section>
+       <div class="form-box">
+           <div class="form-value">
+               <form action="newlogin.php" method="post">
+                   <h2>Login</h2>
+                   <div class="input-box">
+                       <ion-icon name="mail-outline"></ion-icon>
+                       <input type="text"  id="UserName" required>
+                       <label for="UserName">UserName</label>
+                   </div>
+                   <div class="input-box">
+                       <ion-icon name="lock-closed-outline"></ion-icon>
+                       <input type="Password"  id="Password" required>
+                       <label for="Password">Password</label>
+                   </div>
+                   <div class="forget">
+                       <label ><input type="checkbox" >Remember Me  <a href="#">Forget Password</a></label>
+
+                   </div>
+                   <button> Log In</button>
+                    <div class="register">
+                        <p> Dont have an account <a href="#">Register</a></p>
+                    </div>
+               </form>
+
+           </div>
+       </div>
+   </section>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

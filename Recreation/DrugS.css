@@ -1,0 +1,20 @@
+table{
+    //border-spacing: ;
+    width: 400px;
+}
+th, caption{
+    text-align: left;
+    color: Red;
+}
+caption{
+    text-align: left;
+    color: forestgreen;
+}
+
+table, th, td{
+    border: 1px solid darkolivegreen;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}

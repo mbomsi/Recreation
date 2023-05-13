@@ -1,0 +1,229 @@
+
+body{
+    height: 100%;
+    overflow: initial;
+   // background: #171f1a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    background-color: black;
+    color: white;
+}
+.filter{
+    justify-content: right;
+}
+.menubar{
+    background: black;
+    text-align: center;
+    justify-content: right;
+
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: mediumblue;
+}
+.menubar ul li{
+    width: 120px;
+    margin: 15px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white ;
+}
+.active,.menubar ul li:hover{
+  //background-color: seagreen;
+    border-radius: 3px;
+
+}
+.submenu{
+    z-index: 2;
+    display: none;
+}
+.menubar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: #A058E1;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menubar ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+}
+.menubar ul li:hover .submenu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menubar ul li:hover .submenu ul li a:hover{
+    color: lightskyblue;
+}
+.submenu1{
+    z-index: 2;
+    display: none;
+
+}
+.menubar ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background-color: #A058E1;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menubar ul li:hover .submenu1 ul{
+    display: block;
+    margin: 10px;
+}
+.menubar ul li:hover .submenu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menubar ul li:hover .submenu1 ul li a:hover{
+    color: lightskyblue;
+}
+.submenu2{
+    z-index: 2;
+    display: none;
+}
+.menubar ul li:hover .submenu2{
+    z-index: 2;
+    display: block;
+    position: absolute;
+    background-color: #A058E1;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menubar ul li:hover .submenu2 ul{
+    display: block;
+    margin: 10px;
+}
+.menubar ul li:hover .submenu2 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menubar ul li:hover .submenu2 ul li a:hover{
+    color: lightskyblue;
+}
+.submenu3{
+    z-index: 2;
+    display: none;
+}
+.menubar ul li:hover .submenu3{
+    display: block;
+    position: absolute;
+    background-color: #A058E1;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menubar ul li:hover .submenu3 ul{
+    display: block;
+    margin: 10px;
+}
+.menubar ul li:hover .submenu3 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menubar ul li:hover .submenu3 ul li a:hover{
+    color: lightskyblue;
+}
+.side{
+    border: blanchedalmond;
+    margin: 30px;
+    height: 350px;
+    width:  300px;
+    color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background: olivedrab;
+    align-items: start;
+    position: relative;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+.box {
+
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+
+}
+
+.boxes {
+    margin-top: 20px;
+    width: 30vw;
+    height: 20vh;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    justify-items: center;
+}
+.tap{
+    text-align: center;
+}
+.grid{
+    display :grid;
+    grid-template-columns: 50% 50%;
+}
+.first{
+    background-color: #AE93C7;
+    width: 80%;
+    height: 60vh;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 3px;
+}
+table{
+//border-spacing: ;
+    width: 400px;
+}
+th, caption{
+    text-align: left;
+    color: orangered;
+}
+caption{
+    text-align: left;
+    color: maroon;
+}
+
+table, th, td{
+    border: 1px solid darkolivegreen;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
