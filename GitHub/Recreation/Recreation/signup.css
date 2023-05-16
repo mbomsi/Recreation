@@ -1,0 +1,17 @@
+body{
+    background-image: url("OIP.jpg");
+    background-size:revert;
+    font-family: sans-serif;
+}
+.intro{
+    color: white;
+    font-size: 30px;
+ }
+.form{
+    color: yellow;
+    font-kerning: initial;
+    font-size: 30px;
+}
+.sub{
+    color: firebrick;
+}

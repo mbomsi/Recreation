@@ -1,0 +1,28 @@
+
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+$DrugName=$_POST["DrugName"];
+$Quantity_In_Stock =$_POST["Quantity_In_Stock"];
+$Expiry_Date=$_POST["Expiry_Date"];
+$Dose=$_POST["Dose"];
+$Drug_Form =$_POST["Drug_Form"];
+
+do {
+if (empty($DrugName)|| empty($Quantity_In_Stock)|| empty($Expiry_Date)|| empty($Dose)|| empty($Drug_Form)){
+$errorMessage = "All fields are required";
+break;
+}
+
+
+
+if (!$result){
+$errorMessage = "Invalid query:" .$connection->error;
+break;
+}
+
+
+
+
+
+
+<a class='btn btn-primary btn-sm' href='edit.php?id=$row[id]'>Edit</a>
+<a class='btn btn-danger btn-sm' href='delete.php?id=$row[id]'>Delete</a>
